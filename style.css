@@ -8,10 +8,20 @@ header {
     display: flex;
     background-color: #ffffff;
     height: 80px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgb(243, 232, 232);
+    position: fixed; 
+    top: 0; 
+    flex-shrink: inherit;
+    
 }
+
+section{
+    margin-top: 8%;
+}
+
 .myntra_home {
     height: 45px;
 }
@@ -25,6 +35,8 @@ header {
     display: flex;
     min-width: 500px;
     justify-content: space-evenly;
+    
+    
 }
 .nav_bar a {
     font-size: 14px;
@@ -35,6 +47,7 @@ header {
     text-decoration: none;
     padding: 27px 0;
     border-bottom: 4px solid #ffffff;
+
 }
 .nav_bar a:hover {
     border-bottom: 4px solid #f54e77;
@@ -90,8 +103,8 @@ header {
 
 /* Main section */
 
-/* section-1 */
-/* .banner_container {
+/* section-1  */
+.banner_container {
     margin: 40px 0;
 }
 .banner_image {
@@ -116,7 +129,7 @@ header {
 
 .sale_item {
     width: 250px;
-} */
+}
 
 
 /* Section-2 */
