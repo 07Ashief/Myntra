@@ -58,11 +58,13 @@ section{
     font-size: 10px;
 }
 
+
 @media (min-width: 320px) and (max-width: 50em) {
     .nav_bar{
         display: none;
     }
 }
+
 
 .search_bar {
     height: 40px;
@@ -91,6 +93,16 @@ section{
     outline: none;
 }
 
+@media only screen and (max-width: 430px) {
+    .search_bar{
+        display: none;
+        
+    }
+    .banner_image {
+        width: 120%;
+        margin-top: 10%
+    }
+}
 .action_bar {
     display: flex;
     min-width: 200px;
@@ -102,9 +114,13 @@ section{
     flex-direction: column;
     align-items: center;
     font-size: 10px;
+    color: black;
 }
 .action_name{
     font-size: 12px;
+}
+.material-symbols-outlined{
+    color: black;
 }
 
 /* Main section */
