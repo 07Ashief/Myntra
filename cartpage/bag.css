@@ -138,3 +138,14 @@ header{
     height: 14px;
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 430px) 
+    {
+      .bag-items-container {
+        width: 100%;
+        border-right: none;
+    }
+    .bag-summary {
+      width: 100%;
+  }
+    }
