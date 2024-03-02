@@ -58,6 +58,12 @@ section{
     font-size: 10px;
 }
 
+@media (min-width: 320px) and (max-width: 50em) {
+    .nav_bar{
+        display: none;
+    }
+}
+
 .search_bar {
     height: 40px;
     min-width: 200px;
