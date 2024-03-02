@@ -97,10 +97,10 @@ section{
     .search_bar{
         display: none;
         
+        
     }
     .banner_image {
-        width: 120%;
-        margin-top: 10%
+        margin-top: 12%;
     }
 }
 .action_bar {
